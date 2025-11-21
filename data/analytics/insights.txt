@@ -1,0 +1,158 @@
+ANALYTICS INSIGHTS
+==================
+
+## most_common_ingredients
+
+  - salt: 13
+  - oil: 7
+  - ghee: 6
+  - water: 6
+  - onion: 6
+  - tomato: 5
+  - turmeric: 4
+  - mustard seeds: 3
+  - peanuts: 2
+  - garlic: 2
+  - mixed vegetables: 2
+  - cumin: 2
+  - cooked rice: 2
+  - lemon juice: 2
+  - cumin seeds: 2
+  - ginger-garlic paste: 2
+  - rice: 2
+  - toor dal: 2
+  - basmati rice: 1
+  - green chili: 1
+
+
+## prep_time_mean
+
+  None
+
+## prep_time_median
+
+  None
+
+## difficulty_distribution
+
+  - easy: 11
+  - medium: 4
+
+
+## prep_time_vs_likes_corr
+
+  None
+
+## top_by_views
+
+  - {'recipe_id': 'recipe_004', 'title': 'Aloo Paratha', 'views': 599}
+  - {'recipe_id': 'recipe_015', 'title': 'Dal Fry', 'views': 570}
+  - {'recipe_id': 'recipe_002', 'title': 'Masala Khichdi', 'views': 565}
+  - {'recipe_id': 'recipe_012', 'title': 'Chole Masala', 'views': 554}
+  - {'recipe_id': 'recipe_001', 'title': 'Vegetable Pulav', 'views': 447}
+  - {'recipe_id': 'recipe_009', 'title': 'Tomato Soup', 'views': 430}
+  - {'recipe_id': 'recipe_014', 'title': 'Rava Sheera', 'views': 409}
+  - {'recipe_id': 'recipe_006', 'title': 'Paneer Bhurji', 'views': 395}
+  - {'recipe_id': 'recipe_007', 'title': 'Egg Curry', 'views': 270}
+  - {'recipe_id': 'recipe_011', 'title': 'Poha', 'views': 217}
+
+
+## ingredients_high_engagement_avg_likes
+
+  - boiled potatoes: 92.0
+  - wheat flour: 92.0
+  - coriander: 92.0
+  - sugar: 71.0
+  - rava (semolina): 71.0
+  - cardamom: 71.0
+  - butter: 59.0
+  - tomatoes: 59.0
+  - curry leaves: 41.0
+  - sooji (rava): 41.0
+  - oil: 40.857142857142854
+  - mustard seeds: 40.0
+  - lemon juice: 39.5
+  - peanuts: 39.5
+  - poha (flattened rice): 39.0
+  - salt: 38.0
+  - paneer: 38.0
+  - water: 37.166666666666664
+  - onion: 37.0
+  - chickpeas (boiled): 35.0
+
+
+## top_by_likes
+
+  - {'recipe_id': 'recipe_004', 'title': 'Aloo Paratha', 'likes': 92}
+  - {'recipe_id': 'recipe_014', 'title': 'Rava Sheera', 'likes': 71}
+  - {'recipe_id': 'recipe_009', 'title': 'Tomato Soup', 'likes': 59}
+  - {'recipe_id': 'recipe_010', 'title': 'Upma', 'likes': 41}
+  - {'recipe_id': 'recipe_003', 'title': 'Lemon Rice', 'likes': 40}
+  - {'recipe_id': 'recipe_011', 'title': 'Poha', 'likes': 39}
+  - {'recipe_id': 'recipe_006', 'title': 'Paneer Bhurji', 'likes': 38}
+  - {'recipe_id': 'recipe_015', 'title': 'Dal Fry', 'likes': 36}
+  - {'recipe_id': 'recipe_012', 'title': 'Chole Masala', 'likes': 35}
+  - {'recipe_id': 'recipe_007', 'title': 'Egg Curry', 'likes': 32}
+
+
+## top_by_attempts
+
+  - {'recipe_id': 'recipe_002', 'title': 'Masala Khichdi', 'cook_attempts': 48}
+  - {'recipe_id': 'recipe_006', 'title': 'Paneer Bhurji', 'cook_attempts': 47}
+  - {'recipe_id': 'recipe_004', 'title': 'Aloo Paratha', 'cook_attempts': 41}
+  - {'recipe_id': 'recipe_015', 'title': 'Dal Fry', 'cook_attempts': 23}
+  - {'recipe_id': 'recipe_014', 'title': 'Rava Sheera', 'cook_attempts': 20}
+  - {'recipe_id': 'recipe_013', 'title': 'Fried Rice', 'cook_attempts': 18}
+  - {'recipe_id': 'recipe_010', 'title': 'Upma', 'cook_attempts': 18}
+  - {'recipe_id': 'recipe_011', 'title': 'Poha', 'cook_attempts': 14}
+  - {'recipe_id': 'recipe_009', 'title': 'Tomato Soup', 'cook_attempts': 13}
+  - {'recipe_id': 'recipe_007', 'title': 'Egg Curry', 'cook_attempts': 10}
+
+
+## rating_summary
+
+  - avg_rating_mean: 2.87
+  - rating_count_total: 114
+  - rating_value_counts: {3.0: 3, 2.8: 2, 3.1: 2, 2.9: 2, 2.2: 1, 2.0: 1, 3.5: 1, 2.7: 1, 2.6: 1, 3.7: 1}
+
+
+## top_attempt_rate
+
+  - {'recipe_id': 'recipe_013', 'title': 'Fried Rice', 'cook_attempts': 18, 'views': 149, 'attempt_rate': 0.12080536912751678}
+  - {'recipe_id': 'recipe_006', 'title': 'Paneer Bhurji', 'cook_attempts': 47, 'views': 395, 'attempt_rate': 0.1189873417721519}
+  - {'recipe_id': 'recipe_010', 'title': 'Upma', 'cook_attempts': 18, 'views': 187, 'attempt_rate': 0.0962566844919786}
+  - {'recipe_id': 'recipe_002', 'title': 'Masala Khichdi', 'cook_attempts': 48, 'views': 565, 'attempt_rate': 0.08495575221238938}
+  - {'recipe_id': 'recipe_005', 'title': 'Dal Tadka', 'cook_attempts': 10, 'views': 136, 'attempt_rate': 0.07352941176470588}
+  - {'recipe_id': 'recipe_004', 'title': 'Aloo Paratha', 'cook_attempts': 41, 'views': 599, 'attempt_rate': 0.06844741235392321}
+  - {'recipe_id': 'recipe_011', 'title': 'Poha', 'cook_attempts': 14, 'views': 217, 'attempt_rate': 0.06451612903225806}
+  - {'recipe_id': 'recipe_003', 'title': 'Lemon Rice', 'cook_attempts': 9, 'views': 160, 'attempt_rate': 0.05625}
+  - {'recipe_id': 'recipe_008', 'title': 'Jeera Rice', 'cook_attempts': 9, 'views': 177, 'attempt_rate': 0.05084745762711865}
+  - {'recipe_id': 'recipe_014', 'title': 'Rava Sheera', 'cook_attempts': 20, 'views': 409, 'attempt_rate': 0.0488997555012225}
+
+
+## tag_engagement_avg_likes
+
+  - stuffed: 92.0
+  - dessert: 71.0
+  - sweet: 71.0
+  - starter: 59.0
+  - soup: 59.0
+  - breakfast: 57.333333333333336
+  - paneer: 38.0
+  - protein: 35.0
+  - curry: 33.5
+  - quick: 33.2
+  - dal: 33.0
+  - nonveg: 32.0
+  - rice: 29.0
+  - side-dish: 28.0
+  - comfort: 23.666666666666668
+  - one-pot: 19.0
+  - vegetarian: 19.0
+  - indo-chinese: 8.0
+  - light-meal: 5.0
+
+
+## missing_critical_data
+
+  (no rows)

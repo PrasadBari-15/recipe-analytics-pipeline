@@ -1,0 +1,31 @@
+insight,recipe_id,title,value
+top_by_views,recipe_004,Aloo Paratha,599.0
+top_by_views,recipe_015,Dal Fry,570.0
+top_by_views,recipe_002,Masala Khichdi,565.0
+top_by_views,recipe_012,Chole Masala,554.0
+top_by_views,recipe_001,Vegetable Pulav,447.0
+top_by_views,recipe_009,Tomato Soup,430.0
+top_by_views,recipe_014,Rava Sheera,409.0
+top_by_views,recipe_006,Paneer Bhurji,395.0
+top_by_views,recipe_007,Egg Curry,270.0
+top_by_views,recipe_011,Poha,217.0
+top_by_likes,recipe_004,Aloo Paratha,92.0
+top_by_likes,recipe_014,Rava Sheera,71.0
+top_by_likes,recipe_009,Tomato Soup,59.0
+top_by_likes,recipe_010,Upma,41.0
+top_by_likes,recipe_003,Lemon Rice,40.0
+top_by_likes,recipe_011,Poha,39.0
+top_by_likes,recipe_006,Paneer Bhurji,38.0
+top_by_likes,recipe_015,Dal Fry,36.0
+top_by_likes,recipe_012,Chole Masala,35.0
+top_by_likes,recipe_007,Egg Curry,32.0
+top_attempt_rate,recipe_013,Fried Rice,0.12080536912751678
+top_attempt_rate,recipe_006,Paneer Bhurji,0.1189873417721519
+top_attempt_rate,recipe_010,Upma,0.0962566844919786
+top_attempt_rate,recipe_002,Masala Khichdi,0.08495575221238938
+top_attempt_rate,recipe_005,Dal Tadka,0.07352941176470588
+top_attempt_rate,recipe_004,Aloo Paratha,0.06844741235392321
+top_attempt_rate,recipe_011,Poha,0.06451612903225806
+top_attempt_rate,recipe_003,Lemon Rice,0.05625
+top_attempt_rate,recipe_008,Jeera Rice,0.05084745762711865
+top_attempt_rate,recipe_014,Rava Sheera,0.0488997555012225

@@ -1,0 +1,92 @@
+ingredient_id,recipe_id,ingredient
+ing_000001,recipe_001,Basmati rice
+ing_000002,recipe_001,Ghee
+ing_000003,recipe_001,Mixed vegetables
+ing_000004,recipe_001,Green peas
+ing_000005,recipe_001,Onion
+ing_000006,recipe_001,Green chili
+ing_000007,recipe_001,Water
+ing_000008,recipe_001,Salt
+ing_000009,recipe_002,Rice
+ing_000010,recipe_002,Moong dal
+ing_000011,recipe_002,Turmeric
+ing_000012,recipe_002,Ghee
+ing_000013,recipe_002,Cumin seeds
+ing_000014,recipe_002,Salt
+ing_000015,recipe_002,Water
+ing_000016,recipe_003,Cooked rice
+ing_000017,recipe_003,Lemon juice
+ing_000018,recipe_003,Oil
+ing_000019,recipe_003,Peanuts
+ing_000020,recipe_003,Turmeric
+ing_000021,recipe_003,Mustard seeds
+ing_000022,recipe_003,Salt
+ing_000023,recipe_004,Wheat flour
+ing_000024,recipe_004,Boiled potatoes
+ing_000025,recipe_004,Salt
+ing_000026,recipe_004,Oil
+ing_000027,recipe_004,Coriander
+ing_000028,recipe_005,Toor dal
+ing_000029,recipe_005,Ghee
+ing_000030,recipe_005,Garlic
+ing_000031,recipe_005,Cumin
+ing_000032,recipe_005,Tomato
+ing_000033,recipe_005,Salt
+ing_000034,recipe_006,Paneer
+ing_000035,recipe_006,Onion
+ing_000036,recipe_006,Tomato
+ing_000037,recipe_006,Turmeric
+ing_000038,recipe_006,Salt
+ing_000039,recipe_006,Oil
+ing_000040,recipe_007,Eggs
+ing_000041,recipe_007,Onion
+ing_000042,recipe_007,Tomato
+ing_000043,recipe_007,Ginger-garlic paste
+ing_000044,recipe_007,Oil
+ing_000045,recipe_007,Salt
+ing_000046,recipe_008,Rice
+ing_000047,recipe_008,Cumin seeds
+ing_000048,recipe_008,Ghee
+ing_000049,recipe_008,Salt
+ing_000050,recipe_008,Water
+ing_000051,recipe_009,Tomatoes
+ing_000052,recipe_009,Butter
+ing_000053,recipe_009,Onion
+ing_000054,recipe_009,Salt
+ing_000055,recipe_009,Water
+ing_000056,recipe_010,Sooji (rava)
+ing_000057,recipe_010,Water
+ing_000058,recipe_010,Oil
+ing_000059,recipe_010,Mustard seeds
+ing_000060,recipe_010,Curry leaves
+ing_000061,recipe_010,Salt
+ing_000062,recipe_011,Poha (flattened rice)
+ing_000063,recipe_011,Onion
+ing_000064,recipe_011,Peanuts
+ing_000065,recipe_011,Mustard seeds
+ing_000066,recipe_011,Turmeric
+ing_000067,recipe_011,Lemon juice
+ing_000068,recipe_011,Salt
+ing_000069,recipe_012,Chickpeas (boiled)
+ing_000070,recipe_012,Onion
+ing_000071,recipe_012,Tomato
+ing_000072,recipe_012,Ginger-garlic paste
+ing_000073,recipe_012,Chole masala
+ing_000074,recipe_012,Oil
+ing_000075,recipe_012,Salt
+ing_000076,recipe_013,Cooked rice
+ing_000077,recipe_013,Mixed vegetables
+ing_000078,recipe_013,Soy sauce
+ing_000079,recipe_013,Oil
+ing_000080,recipe_013,Green onion
+ing_000081,recipe_014,Rava (semolina)
+ing_000082,recipe_014,Sugar
+ing_000083,recipe_014,Ghee
+ing_000084,recipe_014,Water
+ing_000085,recipe_014,Cardamom
+ing_000086,recipe_015,Toor dal
+ing_000087,recipe_015,Ghee
+ing_000088,recipe_015,Garlic
+ing_000089,recipe_015,Tomato
+ing_000090,recipe_015,Cumin
+ing_000091,recipe_015,Salt

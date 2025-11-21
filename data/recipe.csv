@@ -1,0 +1,16 @@
+recipe_id,title,description,difficulty,cuisine,category,authorId,prepTimeMinutes,cookTimeMinutes,totalTimeMinutes,servings,tags,createdAt,updatedAt,isPublic,ingredients_count,steps_count
+recipe_001,Vegetable Pulav,,Medium,,,,,,,4,"rice,vegetarian,one-pot",2025-11-20T06:40:51.136273+00:00Z,2025-11-20T06:40:51.136273+00:00Z,,8,12
+recipe_002,Masala Khichdi,,Easy,,,,,,,3,"comfort,light-meal",2025-11-20T06:40:51.136273+00:00Z,2025-11-20T06:40:51.136273+00:00Z,,7,10
+recipe_003,Lemon Rice,,Easy,,,,,,,2,"quick,rice",2025-11-20T06:40:51.136273+00:00Z,2025-11-20T06:40:51.136273+00:00Z,,7,10
+recipe_004,Aloo Paratha,,Medium,,,,,,,4,"stuffed,breakfast",2025-11-20T06:40:51.136273+00:00Z,2025-11-20T06:40:51.136273+00:00Z,,5,10
+recipe_005,Dal Tadka,,Easy,,,,,,,4,"dal,comfort",2025-11-20T06:40:51.136273+00:00Z,2025-11-20T06:40:51.136273+00:00Z,,6,10
+recipe_006,Paneer Bhurji,,Easy,,,,,,,3,"paneer,quick",2025-11-20T06:40:51.136273+00:00Z,2025-11-20T06:40:51.136273+00:00Z,,6,10
+recipe_007,Egg Curry,,Medium,,,,,,,3,"nonveg,curry",2025-11-20T06:40:51.136273+00:00Z,2025-11-20T06:40:51.136273+00:00Z,,6,10
+recipe_008,Jeera Rice,,Easy,,,,,,,3,"rice,side-dish",2025-11-20T06:40:51.136273+00:00Z,2025-11-20T06:40:51.136273+00:00Z,,5,10
+recipe_009,Tomato Soup,,Easy,,,,,,,2,"soup,starter",2025-11-20T06:40:51.136273+00:00Z,2025-11-20T06:40:51.136273+00:00Z,,5,10
+recipe_010,Upma,,Easy,,,,,,,3,"breakfast,quick",2025-11-20T06:40:51.136273+00:00Z,2025-11-20T06:40:51.136273+00:00Z,,6,10
+recipe_011,Poha,,Easy,,,,,,,2,"breakfast,quick",2025-11-20T06:40:51.136273+00:00Z,2025-11-20T06:40:51.136273+00:00Z,,7,10
+recipe_012,Chole Masala,,Medium,,,,,,,4,"curry,protein",2025-11-20T06:40:51.136273+00:00Z,2025-11-20T06:40:51.136273+00:00Z,,7,10
+recipe_013,Fried Rice,,Easy,,,,,,,2,"indo-chinese,quick",2025-11-20T06:40:51.136273+00:00Z,2025-11-20T06:40:51.136273+00:00Z,,5,10
+recipe_014,Rava Sheera,,Easy,,,,,,,2,"dessert,sweet",2025-11-20T06:40:51.136273+00:00Z,2025-11-20T06:40:51.136273+00:00Z,,5,10
+recipe_015,Dal Fry,,Easy,,,,,,,3,"dal,comfort",2025-11-20T06:40:51.136273+00:00Z,2025-11-20T06:40:51.136273+00:00Z,,6,10

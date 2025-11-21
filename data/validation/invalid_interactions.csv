@@ -1,0 +1,6 @@
+recipe_id,avg_rating,rating_count,likes,cook_attempts,views,validation_errors
+recipe_016,2.75,8,86,54,471,unknown recipe_id 'recipe_016'
+recipe_017,3.6,5,39,1,196,unknown recipe_id 'recipe_017'
+recipe_020,0.0,0,16,16,253,unknown recipe_id 'recipe_020'
+recipe_019,1.75,4,34,11,222,unknown recipe_id 'recipe_019'
+recipe_018,2.4,5,24,15,328,unknown recipe_id 'recipe_018'

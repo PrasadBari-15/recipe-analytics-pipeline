@@ -1,0 +1,153 @@
+step_id,recipe_id,step_number,step_text
+step_000001,recipe_001,1,Measure 1.5 cups basmati rice and place in a strainer.
+step_000002,recipe_001,2,Rinse rice under running water until water is mostly clear.
+step_000003,recipe_001,3,Let rice drain for 5 minutes.
+step_000004,recipe_001,4,Chop onion and green chilies into small slices.
+step_000005,recipe_001,5,Heat a pot on medium and add 2 tbsp ghee.
+step_000006,recipe_001,6,Add sliced onion and chilies; sauté for 2 minutes.
+step_000007,recipe_001,7,Add mixed vegetables and peas; cook for 3-4 minutes.
+step_000008,recipe_001,8,Add drained rice and lightly stir for 1 minute.
+step_000009,recipe_001,9,Pour 3 cups water into the pot and stir once.
+step_000010,recipe_001,10,Add 1 tsp salt and combine gently.
+step_000011,recipe_001,11,Bring mixture to a steady boil on high heat.
+step_000012,recipe_001,12,"Reduce heat to low, cover, and cook for 12–15 minutes. Then rest 5 minutes and fluff."
+step_000013,recipe_002,1,Wash rice and moong dal together until water runs clearer.
+step_000014,recipe_002,2,Soak for 5 minutes then drain.
+step_000015,recipe_002,3,Heat ghee in a pressure cooker on medium heat.
+step_000016,recipe_002,4,Add cumin seeds; let them crackle for a few seconds.
+step_000017,recipe_002,5,Add rice and dal; sauté for 1 minute.
+step_000018,recipe_002,6,"Add turmeric, salt and 3 cups water."
+step_000019,recipe_002,7,"Stir, close the lid and cook for 3 whistles on medium heat."
+step_000020,recipe_002,8,Turn off heat and allow pressure to release naturally.
+step_000021,recipe_002,9,"Open lid, stir gently to combine."
+step_000022,recipe_002,10,Serve hot with a drizzle of ghee and pickle.
+step_000023,recipe_003,1,Spread leftover rice on a plate to remove clumps.
+step_000024,recipe_003,2,Heat oil in a pan and add mustard seeds until they pop.
+step_000025,recipe_003,3,Add peanuts and roast until crisp.
+step_000026,recipe_003,4,Add turmeric and mix quickly.
+step_000027,recipe_003,5,Add rice to the pan and stir gently.
+step_000028,recipe_003,6,"Add lemon juice and salt, mix evenly."
+step_000029,recipe_003,7,Keep stirring for 1–2 minutes on low heat.
+step_000030,recipe_003,8,Turn off heat and let it rest covered briefly.
+step_000031,recipe_003,9,Garnish with coriander leaves if available.
+step_000032,recipe_003,10,Serve warm or at room temperature.
+step_000033,recipe_004,1,Make a soft dough with wheat flour and water; rest 10 minutes.
+step_000034,recipe_004,2,Boil and peel potatoes; mash smoothly.
+step_000035,recipe_004,3,"Mix mashed potatoes with salt, coriander and mild spices."
+step_000036,recipe_004,4,Divide dough and stuffing into equal portions.
+step_000037,recipe_004,5,"Roll a dough ball into a small circle, place stuffing, fold edges."
+step_000038,recipe_004,6,Gently roll the stuffed ball into a paratha shape.
+step_000039,recipe_004,7,Heat a tawa (griddle) and add a few drops of oil.
+step_000040,recipe_004,8,Cook paratha on both sides until golden brown.
+step_000041,recipe_004,9,Apply oil/ghee while cooking for crisp finish.
+step_000042,recipe_004,10,Serve hot with curd or pickle.
+step_000043,recipe_005,1,Rinse toor dal under cold water.
+step_000044,recipe_005,2,Pressure cook dal with water until soft (3–4 whistles).
+step_000045,recipe_005,3,Heat ghee in a pan and add cumin seeds.
+step_000046,recipe_005,4,Add chopped garlic and sauté till light brown.
+step_000047,recipe_005,5,Add chopped tomato and cook until soft.
+step_000048,recipe_005,6,Pour cooked dal into the pan; mix well.
+step_000049,recipe_005,7,Add salt and simmer for 5 minutes.
+step_000050,recipe_005,8,"Prepare a tadka (ghee, cumin, garlic) and pour over dal."
+step_000051,recipe_005,9,Stir and simmer for another minute.
+step_000052,recipe_005,10,Serve hot with rice or roti.
+step_000053,recipe_006,1,Crumble paneer and keep aside.
+step_000054,recipe_006,2,Heat oil in a pan and add chopped onions.
+step_000055,recipe_006,3,Sauté onions until translucent.
+step_000056,recipe_006,4,Add chopped tomatoes and cook till soft.
+step_000057,recipe_006,5,Add turmeric and salt; mix.
+step_000058,recipe_006,6,Add crumbled paneer and stir for 2–3 minutes.
+step_000059,recipe_006,7,Adjust seasoning and cook until paneer is warm.
+step_000060,recipe_006,8,Garnish with coriander and serve hot.
+step_000061,recipe_006,9,Serve with roti or bread.
+step_000062,recipe_006,10,Store leftovers in fridge for up to 2 days.
+step_000063,recipe_007,1,"Boil eggs, cool, peel and set aside."
+step_000064,recipe_007,2,Heat oil and sauté chopped onions until golden.
+step_000065,recipe_007,3,Add ginger-garlic paste; cook briefly.
+step_000066,recipe_007,4,Add chopped tomatoes and cook until mushy.
+step_000067,recipe_007,5,Season with salt and spices to taste.
+step_000068,recipe_007,6,Add a little water to make gravy and simmer 5 mins.
+step_000069,recipe_007,7,Make shallow slits in eggs and add to gravy.
+step_000070,recipe_007,8,Simmer eggs in gravy for 5–7 minutes.
+step_000071,recipe_007,9,Garnish with coriander and serve hot.
+step_000072,recipe_007,10,Serve with rice or roti.
+step_000073,recipe_008,1,Rinse rice and soak for 10 minutes.
+step_000074,recipe_008,2,Heat ghee in a pot and add cumin seeds.
+step_000075,recipe_008,3,Sauté cumin seeds until aromatic.
+step_000076,recipe_008,4,Add drained rice and stir for a minute.
+step_000077,recipe_008,5,Add 2 cups water and salt; mix gently.
+step_000078,recipe_008,6,"Bring to boil, then reduce heat, cover and cook 12 minutes."
+step_000079,recipe_008,7,Turn off heat and rest covered for 5 minutes.
+step_000080,recipe_008,8,Fluff with fork and serve.
+step_000081,recipe_008,9,Optional: garnish with fried cashews.
+step_000082,recipe_008,10,Serve hot with dal or curry.
+step_000083,recipe_009,1,Chop tomatoes and onion roughly.
+step_000084,recipe_009,2,Heat butter in a pan and sauté onion until soft.
+step_000085,recipe_009,3,Add chopped tomatoes and cook until soft.
+step_000086,recipe_009,4,Add water and salt; simmer 8–10 minutes.
+step_000087,recipe_009,5,Blend the mixture until smooth.
+step_000088,recipe_009,6,Strain soup if a smoother texture is desired.
+step_000089,recipe_009,7,"Reheat, adjust salt, and add a dash of pepper."
+step_000090,recipe_009,8,Serve hot with croutons or bread.
+step_000091,recipe_009,9,Optional: add cream swirl for richness.
+step_000092,recipe_009,10,Store leftovers in fridge up to 2 days.
+step_000093,recipe_010,1,Heat oil in a pan and add mustard seeds.
+step_000094,recipe_010,2,"When seeds pop, add curry leaves and sauté."
+step_000095,recipe_010,3,Add 2.5 cups water and bring to a boil.
+step_000096,recipe_010,4,Slowly add sooji while stirring to avoid lumps.
+step_000097,recipe_010,5,Add salt and mix thoroughly.
+step_000098,recipe_010,6,Cook on low heat for 4–5 minutes till water absorbs.
+step_000099,recipe_010,7,Turn off heat and cover for 2 minutes.
+step_000100,recipe_010,8,Fluff with a fork and serve hot.
+step_000101,recipe_010,9,Optional: garnish with lemon and coriander.
+step_000102,recipe_010,10,Serve with chutney or pickle.
+step_000103,recipe_011,1,Rinse poha briefly and drain; keep aside.
+step_000104,recipe_011,2,Heat oil and add mustard seeds; let them crackle.
+step_000105,recipe_011,3,Add peanuts and roast until crisp.
+step_000106,recipe_011,4,Add chopped onions and cook until translucent.
+step_000107,recipe_011,5,Add turmeric and mix well.
+step_000108,recipe_011,6,Add drained poha and salt; mix gently.
+step_000109,recipe_011,7,Cook for 1–2 minutes to heat through.
+step_000110,recipe_011,8,Turn off heat and add lemon juice.
+step_000111,recipe_011,9,Garnish with coriander and serve.
+step_000112,recipe_011,10,Serve warm with chai or as a snack.
+step_000113,recipe_012,1,Heat oil and sauté chopped onions till golden.
+step_000114,recipe_012,2,Add ginger-garlic paste and sauté briefly.
+step_000115,recipe_012,3,Add chopped tomatoes and cook until mushy.
+step_000116,recipe_012,4,Add chole masala and mix well.
+step_000117,recipe_012,5,Add boiled chickpeas and 1 cup water; stir.
+step_000118,recipe_012,6,Simmer for 15 minutes on low heat.
+step_000119,recipe_012,7,Adjust salt and spices to taste.
+step_000120,recipe_012,8,Garnish with coriander and serve hot.
+step_000121,recipe_012,9,"Serve with bhatura, puri or rice."
+step_000122,recipe_012,10,Store leftovers in fridge up to 3 days.
+step_000123,recipe_013,1,Heat oil in a wok on high heat.
+step_000124,recipe_013,2,Add mixed vegetables and stir-fry until tender.
+step_000125,recipe_013,3,Add cooked rice and toss well.
+step_000126,recipe_013,4,Add soy sauce and mix thoroughly.
+step_000127,recipe_013,5,Season with salt/pepper as needed.
+step_000128,recipe_013,6,Garnish with chopped green onion.
+step_000129,recipe_013,7,Serve immediately while hot.
+step_000130,recipe_013,8,Optional: add scrambled egg for non-veg version.
+step_000131,recipe_013,9,Adjust seasoning and serve.
+step_000132,recipe_013,10,Store leftovers separately for best texture.
+step_000133,recipe_014,1,Heat ghee in a pan and roast rava until aromatic.
+step_000134,recipe_014,2,Boil water with cardamom pods.
+step_000135,recipe_014,3,Slowly add rava to boiling water while stirring.
+step_000136,recipe_014,4,Add sugar and mix until dissolved.
+step_000137,recipe_014,5,Cook on low heat until sheera thickens.
+step_000138,recipe_014,6,Add a little ghee for shine and flavor.
+step_000139,recipe_014,7,Turn off heat and let it rest for a minute.
+step_000140,recipe_014,8,Serve warm; garnish with nuts if desired.
+step_000141,recipe_014,9,Store leftovers in fridge for a day.
+step_000142,recipe_014,10,Reheat gently before serving.
+step_000143,recipe_015,1,Rinse dal and cook until soft.
+step_000144,recipe_015,2,Mash dal slightly to desired consistency.
+step_000145,recipe_015,3,Heat ghee and add cumin and garlic.
+step_000146,recipe_015,4,Add chopped tomato and cook into a thick masala.
+step_000147,recipe_015,5,Combine dal with the masala and simmer.
+step_000148,recipe_015,6,Adjust salt and add water if needed.
+step_000149,recipe_015,7,Finish with a tadka (ghee + spices) poured on top.
+step_000150,recipe_015,8,Garnish with coriander and serve hot.
+step_000151,recipe_015,9,Serve with steamed rice or roti.
+step_000152,recipe_015,10,Store leftovers in refrigerator.
