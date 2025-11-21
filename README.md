@@ -60,3 +60,171 @@ project-folder/
 │
 └── RecipeAccountKey.json # Firebase service key
 ```
+
+## 🗃️ Data Model
+
+### 👤 Users Collection
+
+| Field         | Description                     |
+| :------------ | :------------------------------ |
+| **user\_id** | Unique identifier               |
+| name          | User name                       |
+| email         | Email address                   |
+| location      | User location                   |
+| preferences   | Array of category preferences   |
+| signup\_date  | Date user joined                |
+
+### 🍽️ Recipes Collection
+
+| Field           | Description                           |
+| :-------------- | :------------------------------------ |
+| **recipe\_id** | Unique recipe ID                      |
+| title           | Recipe title                          |
+| difficulty      | Easy / Medium / Hard                  |
+| servings        | No. of servings                       |
+| prep\_time\_min | Preparation time                      |
+| cook\_time\_min | Cooking time                          |
+| tags            | Array of tags                         |
+| ingredients     | `[]{ name, quantity, unit }`          |
+| steps           | `[]{ step_no, instruction }`          |
+| created\_at     | Timestamp                             |
+| updated\_at     | Timestamp                             |
+
+### ⭐ Interactions Collection
+
+| Field             | Description            |
+| :---------------- | :--------------------- |
+| **recipe\_id** | Recipe reference       |
+| avg\_rating       | Average rating         |
+| rating\_count     | Total ratings          |
+| likes             | Total likes            |
+| cook\_attempts    | Attempts               |
+| views             | Total views            |
+
+---
+### Instructions for Running the Pipeline
+
+## Step 1: Environment Setup
+
+### 1. Clone the Repository
+
+Clone the project code from GitHub and navigate into the main directory.
+
+```bash
+git clone <repository-url>
+cd <project-directory>
+```
+
+### 2. Create and Activate Virtual Environment
+
+Virtual environments ensure project dependencies do not conflict with your system-wide Python installation.
+
+
+```bash
+# Windows
+python -m venv .venv
+.\.venv\Scripts\activate
+
+# macOS/Linux
+python3 -m venv .venv
+source .venv/bin/activate
+```
+### 3. Install Dependencies
+Use the dependency list to install all necessary Python libraries.
+
+
+```bash
+pip install firebase-admin pandas python-dateutil matplotlib pillow
+```
+## Step 2: Firebase Configuration
+
+This project requires a secure connection to your **Firebase Firestore database** using a service account key.
+
+### 1. Create a Firebase Project
+
+1. Go to the [Firebase Console](https://console.firebase.google.com/).
+2. Click "**Add project**" and follow the setup wizard.
+
+### 2. Set up Firestore Database
+
+1. In the Firebase Console, navigate to the "**Firestore Database**" section.
+2. Click "**Create database**" and start in production mode.
+3. Choose a location close to your users.
+
+### 3. Generate Service Account Key
+
+1. Go to **Project Settings** (gear icon next to "Project Overview") > **Service Accounts**.
+2. Click "**Generate new private key**".
+3. Save the JSON file (e.g., `your-key-name.json`) in your project root, or a secure location referenced by your scripts.
+
+### 4. Configure Scripts
+
+Crucially, update the `SERVICE_ACCOUNT_PATH` variable in all seeding and ETL scripts to point to the correct path of your downloaded JSON key file.
+
+```python
+# The following files must be updated:
+# recipe.py
+# users.py
+# interaction.py
+# etl_export_to_csv.py
+
+# Example update inside each file:
+SERVICE_ACCOUNT_PATH = r"/path/to/your/your-key-name.json"
+```
+
+## Execution of Pipeline
+
+The pipeline must be run in **four sequential phases** to ensure data dependencies are met (e.g., ETL cannot run before the database is seeded).
+
+### Phase 1: Database Seeding (Data Setup)
+
+This phase uses the three dedicated seeding scripts to populate your **Firestore instance** with sample recipe, user, and interaction data, fulfilling the source data setup requirement.
+
+**Commands:**
+```bash
+python recipe.py
+python users.py
+python interaction.py
+```
+### Phase 2: ETL Process (Extract, Transform, Load)
+
+The `etl_export_to_csv.py` script connects to **Firestore**, reads the collections, performs the required normalization (flattening nested ingredient/step arrays and aggregating interaction metrics), and loads the output into a local staging area.
+
+**Command:**
+```bash
+python etl_export_to_csv.py
+```
+### Phase 3: Data Quality Validation
+The validate_csv_data.py script reads the normalized CSVs and applies the defined data quality rules (e.g., non-negative numeric fields, valid categorical values like 'difficulty', and referential integrity checks).
+**Command:**
+```bash
+python validate_csv_data.py
+```
+### Phase 4: Analytics and Visualization
+The final script, analysis.py, consumes the clean, validated CSV data, merges the tables, computes the required 10+ insights, and generates various charts using matplotlib.
+**Command:**
+```bash
+python analysis.py
+```
+
+---
+
+## ⚠ Known Limitations
+
+* Service account path is **hardcoded** in scripts (should use environment variables for security).
+* Designed for a **small dataset** (~15–20 recipes).
+* Users table **not used** in the analytics phase.
+* Validation checks are currently **schema-level only** (e.g., basic field checks, foreign key check).
+
+---
+
+## 📞 Contact
+
+* **Name:** Prasad Bari
+* **Email:** prasadbari1515@gmail.com
+
+---
+
+## ✅ Next Steps
+
+> Ready to start? Head over to the **Step 1: Environment Setup** section above to begin configuring your pipeline!
