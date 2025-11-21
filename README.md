@@ -206,8 +206,41 @@ The final script, analysis.py, consumes the clean, validated CSV data, merges th
 ```bash
 python analysis.py
 ```
+### 📈 Insights Summary
 
+The `analysis.py` script successfully generates over **10 key insights and visualizations**, providing actionable business intelligence about the recipes and user engagement.
+
+1. **Most Common Ingredients**
+    * Identifies the top 20 ingredients used across all recipes (e.g., Rice, Salt, Onion).
+   ![Most Common Ingredients](data/analytics/most_common_ingredients_top20.png)
 ---
+2. **Difficulty Distribution**
+  * Bar chart showing the count of recipes categorized as Easy, Medium, and Hard.
+   ![Difficulty Distribution](data/analytics/difficulty_distribution.png)
+---
+
+3. **Top Recipes by Views**
+  * Bar chart identifying the 10 most frequently viewed recipes.
+   ![Top Recipes by views](data/analytics/top10_views.png)
+---
+4. **Ingredients by Avg Likes**
+  * Identifies the top 20 ingredients whose presence correlates with a high average number of likes per recipe.
+    ![Ingredients by Avg Likes](data/analytics/ingredients_high_engagement_avg_likes_top20.png)
+---
+5. **Top Recipes by Likes**
+    * Bar chart showing the 10 recipes with the highest total like counts.
+    ![Top Like Recipes](data/analytics/top10_likes.png)
+---
+6. **Top Recipes by Cook Attempts**
+  * Highlighting the 10 recipes that users attempted to cook most often.
+  ![Top Recipes by Cook Attempts](data/analytics/top10_attempts.png)
+---
+7. **Rating Distribution**
+  * Histogram showing the frequency of average ratings (1.0 to 5.0) across all recipes.
+![rate Distribution](data/analytics/rating_distribution_hist.png)
+8. **Top Attempt Rate**
+  * Calculates and charts the top 10 recipes based on the conversion rate of views to cook attempts (cook_attempts / views).
+![Top Attempt Rate](data/analytics/top10_attempt_rate.png)
 
 ## ⚠ Known Limitations
 
@@ -217,6 +250,10 @@ python analysis.py
 * Validation checks are currently **schema-level only** (e.g., basic field checks, foreign key check).
 
 ---
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request if you find a bug or have an idea for an improvement.
+
 
 ## 📞 Contact
 
