@@ -242,6 +242,15 @@ The `analysis.py` script successfully generates over **10 key insights and visua
   * Calculates and charts the top 10 recipes based on the conversion rate of views to cook attempts (cook_attempts / views).
 ![Top Attempt Rate](data/analytics/top10_attempt_rate.png)
 
+## 🤖 Future Enhancements
+
+- Add ML-based recipe recommendation system
+- Implement ingredient frequency heatmaps
+- Create FastAPI based API layer
+- Add dashboard using Power BI or Streamlit
+- Enable live Firestore → BigQuery sync
+
+
 ## ⚠ Known Limitations
 
 * Service account path is **hardcoded** in scripts (should use environment variables for security).
@@ -250,11 +259,12 @@ The `analysis.py` script successfully generates over **10 key insights and visua
 * Validation checks are currently **schema-level only** (e.g., basic field checks, foreign key check).
 
 ---
-## 🤝 Contributing
+## 🤝 Contribution
 
-Contributions are welcome! Feel free to open an issue or submit a pull request if you find a bug or have an idea for an improvement.
+Contributions are welcome!  
+If you’d like to improve this project, feel free to open an issue or submit a pull request.
 
-
+---
 ## 📞 Contact
 
 * **Name:** Prasad Bari
